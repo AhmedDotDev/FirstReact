@@ -14,7 +14,6 @@ import {
   cilStar,
 } from '@coreui/icons'
 import { CNavGroup, CNavItem, CNavTitle } from '@coreui/react'
-
 const _nav = [
   {
     component: CNavItem,
@@ -44,11 +43,11 @@ const _nav = [
   },
   {
     component: CNavTitle,
-    name: 'Components',
+    name: 'E-commerce',
   },
   {
     component: CNavGroup,
-    name: 'Base',
+    name: 'Coming soon ',
     to: '/base',
     icon: <CIcon icon={cilPuzzle} customClassName="nav-icon" />,
     items: [
@@ -126,19 +125,19 @@ const _nav = [
   },
   {
     component: CNavGroup,
-    name: 'Buttons',
-    to: '/buttons',
+    name: 'Products',
+    to: '/products',
     icon: <CIcon icon={cilCursor} customClassName="nav-icon" />,
     items: [
       {
         component: CNavItem,
-        name: 'Buttons',
-        to: '/buttons/buttons',
+        name: 'All Products',
+        to: '/products',
       },
       {
         component: CNavItem,
-        name: 'Buttons groups',
-        to: '/buttons/button-groups',
+        name: 'Add New Products',
+        to: '/products/addnew',
       },
       {
         component: CNavItem,
