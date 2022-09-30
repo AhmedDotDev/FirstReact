@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 app.use('/api/auth', require('./routes/auth'))
-app.use('/api/notes', require('./routes/notes'))
+app.use('/api/product', require('./routes/product'))
 
 app.listen(port, () => {
   console.log(`Chal gyi at ${port}`)
